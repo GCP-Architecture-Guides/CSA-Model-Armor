@@ -17,8 +17,7 @@
 ##  This demo code is not built for production workload ##
 
 
-/*
-output "_01_cas_project_id" {
-  value = module.module_ma.
+
+output "_1_notebook_proxy" {
+  value = module.module_ma._1_notebook_proxy
 }
-*/
