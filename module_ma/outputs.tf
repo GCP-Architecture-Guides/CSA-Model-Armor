@@ -13,5 +13,9 @@
 ##  limitations under the License.
 
 
-##  This code creates demo environment for CSA Model Armor Demo
-##  This demo code is not built for production workload ##
+
+
+output "_1_notebook_proxy" {
+  value = "https://${google_workbench_instance.ma_veretx_instance.proxy_uri}"
+ 
+}
