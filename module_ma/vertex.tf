@@ -93,8 +93,7 @@ resource "google_workbench_instance" "ma_veretx_instance" {
 
   disable_proxy_access = "false"
 
-  instance_owners  = ["admin@manishkgaur.altostrat.com"]
-
+  instance_owners  = var.vertex_insance_owner
   labels = {
     k = "model-armor"
   }
