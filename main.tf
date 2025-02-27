@@ -24,4 +24,6 @@ module "module_ma" {
   vpc_dmz_subnetwork = var.vpc_dmz_subnetwork
   roles              = var.roles
   ma_dlp_roles       = var.ma_dlp_roles
+  vertex_insance_owner = var.vertex_insance_owner
+
 }
