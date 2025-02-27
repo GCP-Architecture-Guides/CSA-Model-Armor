@@ -23,6 +23,11 @@ variable "ma_project_id" {
 
 }
 
+variable "vertex_insance_owner" {
+   type        = list(string)
+  description = "Vertex workbench instance owners"
+
+}
 
 variable "network_region" {
   type        = string
