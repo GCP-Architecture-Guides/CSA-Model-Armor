@@ -6,7 +6,7 @@ This code creates a secure demo environment for Model Armor. This demo code is n
 
 
 # Demo 
-This demo uses terraform to setup sModel Armor demo in a Vertex AI Wrokbench  in a project and underlying infrastructure using Google Cloud Services like [Model Armor](https://cloud.google.com/security-command-center/docs/model-armor-overview),  [Vertex-AI](https://cloud.google.com/vertex-ai), [Cloud Compute Engine](https://cloud.google.com/compute) and [Cloud Logging](https://cloud.google.com/logging).
+This demo uses terraform to setup Model Armor demo in a Vertex AI Wrokbench  in a project and underlying infrastructure using Google Cloud Services like [Model Armor](https://cloud.google.com/security-command-center/docs/model-armor-overview),  [Vertex-AI](https://cloud.google.com/vertex-ai), [Cloud Compute Engine](https://cloud.google.com/compute) and [Cloud Logging](https://cloud.google.com/logging).
 
 
 
