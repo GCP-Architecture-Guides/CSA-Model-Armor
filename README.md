@@ -47,6 +47,7 @@ From the root folder of this repo, run the following commands:
 ```
 export TF_VAR_ma_project_id=[YOUR_PROJECT_ID]
 export TF_VAR_network_region=[YOUR_NETWORK_REGION]
+export TF_VAR_vertex_insance_owner=[YOUR_ACCOUNT_EMAIL]
 terraform init
 terraform apply
 terraform apply --refresh-only
